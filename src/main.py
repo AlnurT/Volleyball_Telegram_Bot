@@ -2,8 +2,8 @@ import asyncio
 import logging
 import sys
 
-from src.core.handlers import basic, other
 from src.create_bot import bot, dp
+from src.project.handlers import basic, other
 
 
 async def main() -> None:
