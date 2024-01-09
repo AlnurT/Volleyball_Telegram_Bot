@@ -12,7 +12,6 @@ async def main() -> None:
         format="%(asctime)s - [%(levelname)s] - %(name)s - (%(filename)s).%(funcName)s(%(lineno)d) - %(message)s",
         stream=sys.stdout,
     )
-
     basic.register_basic_handlers()
     other.register_other_handlers()
 
