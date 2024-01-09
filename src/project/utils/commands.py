@@ -2,7 +2,7 @@ from aiogram import Bot
 from aiogram.types import BotCommand, BotCommandScopeDefault
 
 
-async def set_command(bot: Bot):
+async def set_commands(bot: Bot):
     commands = [
         BotCommand(command="rules", description="Правила группы"),
         BotCommand(command="poll", description="Создать опрос"),
